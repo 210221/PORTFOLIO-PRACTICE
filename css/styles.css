@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  padding: 0;
+}
+
+header .first {
+  margin-left: 15px;
+  background: rgb(90, 84, 84);
+  color: #fff;
+  padding: 7px 20px;
+}
+
+
+header a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  margin-right: 30px;
+}
+
+.jump {
+  color: rgb(51, 47, 47);
+  font-size: 15px;
+}
+
+main img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+}
+
+.about {
+  margin: 0 auto 100px auto;
+  text-align: center;
+  padding: 0 4%;
+  max-width: 960px;
+}
+
+section h1 {
+  font-size: 2rem;
+  border-bottom: solid 1px rgb(65, 59, 59);
+  display: inline-block;
+  color: rgb(65, 59, 59);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .text {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.text h2 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.text p {
+  padding: 0;
+  margin: 0;
+}
+
+.works {
+  text-align: center;
+  padding:0 20px 100px;
+}
+
+
+.works img {
+  width: 160px;
+}
+
+.works .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works h2 {
+  font-size: 1rem;
+}
+
+footer {
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
